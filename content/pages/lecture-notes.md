@@ -6,24 +6,249 @@ uid: ee668e05-ff75-8895-0bb1-7bddd4117378
 
 This section contains selected lecture notes. The numbering of lectures differs slightly from that given in the [Calendar]({{< baseurl >}}/pages/calendar) section.
 
-| LEC # | TOPICS | LECTURE NOTES |
-| --- | --- | --- |
-| 1 | Introduction, linear algebra review | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec01)) |
-| 2 | Least square estimation | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec02)) |
-| 3 | Least square solutions of linear problems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec03)) |
-| 4 | Singular values | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec04)) |
-| 5 | Matrix perturbations | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec05)) |
-| 6 | Dynamical systems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec06)) |
-| 7 | State-space models | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec07)) |
-| 8 | Solutions of state-space models | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec08)) |
-| 9 | Transfer functions | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec09)) |
-| 12 | I/O stability | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec12)) |
-| 13 | I/O stability (cont.) | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec13)) |
-| 16 | Bode's sensitivity integral | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec16)) |
-| 17 | Robust stability | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec17)) |
-| 20 | Reachability and observability | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec20)) |
-| 21 | Minimal realizations | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec21)) |
-| 22 | Balanced realization | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec22)) |
-| 23 | Feedback stabilization | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec23)) |
-| 24 | H2 optimization | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec24)) |
-| 25 | H∞ optimization | ([PDF]({{< baseurl >}}/resources/mit6_241js11_lec25))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction, linear algebra review
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Least square estimation
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Least square solutions of linear problems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Singular values
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Matrix perturbations
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Dynamical systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+State-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Solutions of state-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec08))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Transfer functions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec09))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+I/O stability
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+I/O stability (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Bode's sensitivity integral
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec16))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Robust stability
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Reachability and observability
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec20))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Minimal realizations
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec21))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Balanced realization
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec22))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Feedback stabilization
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec23))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+H2 optimization
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec24))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+H∞ optimization
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_lec25))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

@@ -13,65 +13,691 @@ Course notes are courtesy of Mohammed Dahleh, Munther A. Dahleh, and George Verg
 
 The full set of course notes are also available as one file (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 10.3MB]({{< baseurl >}}/resources/mit6_241js11_textbook)).
 
-| CHAPTER # | TOPICS | FILES |
-| --- | --- | --- |
-| 1 | Linear algebra review | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap01)) |
-| 2 | Least squares estimation | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap02)) |
-| 3 | Least squares solution of y = < A, x > | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap03)) |
-| 4 | Matrix norms and singular value decomposition | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap04)) |
-| 5 | Matrix perturbations | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap05)) |
-| 6 | Dynamic models | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap06)) |
-| 7 | State-space models | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap07)) |
-| 8 | Simulation/realization | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap08)) |
-| 9 | \[topic not available\] | &nbsp; |
-| 10 | Discrete-time linear state-space models | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap10)) |
-| 11 | Continuous-time linear state-space models | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap11)) |
-| 12 | Modal decomposition of state-space models | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap12)) |
-| 13 | Internal (Lyapunov) stability | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap13)) |
-| 14 | Internal stability for LTI systems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap14)) |
-| 15 | External input-output stability | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap15)) |
-| 16 | System norms | &nbsp; |
-| 17 | Interconnected systems and feedback: well-posedness, stability, and performance | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap17)) |
-| 18 | Performance of feedback systems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap18)) |
-| 19 | Robust stability in SISO systems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap19)) |
-| 20 | Stability robustness | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap20)) |
-| 21 | Robust performance and introduction to the structured singular value function | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap21)) |
-| 22 | Reachability of DT LTI systems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap22)) |
-| 23 | CT reachability, canonical forms | &nbsp; |
-| 24 | Observability | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap24)) |
-| 25 | Minimal state-space realization | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap25)) |
-| 26 | Balanced realization | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap26)) |
-| 27 | Poles and zeros of MIMO systems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap27)) |
-| 28 | Stabilization: state feedback | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap28)) |
-| 29 | Observers, model-based controllers | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap29)) |
-| 30 | Minimality and stability of interconnected systems | ([PDF]({{< baseurl >}}/resources/mit6_241js11_chap30)) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+CHAPTER #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+FILES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Linear algebra review
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Least squares estimation
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Least squares solution of y = \< A, x >
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Matrix norms and singular value decomposition
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Matrix perturbations
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Dynamic models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+State-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Simulation/realization
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap08))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+\[topic not available\]
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete-time linear state-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Continuous-time linear state-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Modal decomposition of state-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Internal (Lyapunov) stability
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Internal stability for LTI systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap14))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+External input-output stability
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap15))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+System norms
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Interconnected systems and feedback: well-posedness, stability, and performance
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Performance of feedback systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap18))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Robust stability in SISO systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap19))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Stability robustness
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap20))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Robust performance and introduction to the structured singular value function
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap21))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Reachability of DT LTI systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap22))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+CT reachability, canonical forms
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Observability
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap24))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Minimal state-space realization
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap25))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Balanced realization
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap26))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+27
+{{< tdclose >}}
+{{< tdopen >}}
+Poles and zeros of MIMO systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap27))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+28
+{{< tdclose >}}
+{{< tdopen >}}
+Stabilization: state feedback
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap28))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+29
+{{< tdclose >}}
+{{< tdopen >}}
+Observers, model-based controllers
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap29))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+30
+{{< tdclose >}}
+{{< tdopen >}}
+Minimality and stability of interconnected systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_241js11_chap30))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< anchor "Schedule" >}}{{< /anchor >}}Schedule of Readings
 ------------------------------------------------------------
 
-| LEC # | LECTURE TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Introduction to dynamic systems and control, matrix algebra | Chapter 1 |
-| 2 | Least squares error solutions of overdetermined / underdetermined systems | Chapters 2 and 3 |
-| 3 | Matrix norms, SVD, matrix perturbations | Chapter 4 |
-| 4 | Matrix perturbations | Chapter 5 |
-| 5 | State-space models, linearity and time invariance | Chapters 6–8 |
-| 6 | Solutions of state-space models | Chapters 10 and 11 |
-| 7 | Similarity transformations, modes of LTI systems, Laplace transform, transfer functions | Chapter 12 |
-| 8 | Stability, Lyapunov methods | Chapters 13 and 14 |
-| 9 | External I/O stability, storage functions | Chapter 15 |
-| 10 | Interconnected systems, feedback, I/O stability | Chapters 15 and 17 |
-| 11 | System norms | Chapter 16 |
-| 12 | Performance measures in feedback control | Chapter 18 |
-| 13 | Small gain theorem, stability robustness | Chapter 19 |
-| 14 | Stability robustness (MIMO) | Chapters 20 and 21 |
-| 15 | Reachability | Chapter 22 |
-| 16 | Reachability: standard and canonical forms, modal tests | Chapter 23 |
-| 17 | Observability | Chapter 24 |
-| 18 | Minimality, realization, Kalman decomposition, model reduction | Chapter 25 |
-| 19 | State feedback, observers, output feedback, MIMO poles and zeros | Chapters 26–29 |
-| 20 | Minimality of interconnections, pole/zero cancellations | Chapter 30 |
-| 21 | Parameterization of all stabilizing controllers | &nbsp; |
-| 22 | Optimal control synthesis: problem setup | &nbsp; |
-| 23 | H2 optimization | &nbsp; |
-| 24 | H∞ optimization |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+LECTURE TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to dynamic systems and control, matrix algebra
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Least squares error solutions of overdetermined / underdetermined systems
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 2 and 3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Matrix norms, SVD, matrix perturbations
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Matrix perturbations
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+State-space models, linearity and time invariance
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 6–8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Solutions of state-space models
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 10 and 11
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Similarity transformations, modes of LTI systems, Laplace transform, transfer functions
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Stability, Lyapunov methods
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 13 and 14
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+External I/O stability, storage functions
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 15
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Interconnected systems, feedback, I/O stability
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 15 and 17
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+System norms
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 16
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Performance measures in feedback control
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 18
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Small gain theorem, stability robustness
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 19
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Stability robustness (MIMO)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 20 and 21
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Reachability
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 22
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Reachability: standard and canonical forms, modal tests
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 23
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Observability
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 24
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Minimality, realization, Kalman decomposition, model reduction
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 25
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+State feedback, observers, output feedback, MIMO poles and zeros
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 26–29
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Minimality of interconnections, pole/zero cancellations
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 30
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Parameterization of all stabilizing controllers
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Optimal control synthesis: problem setup
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+H2 optimization
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+H∞ optimization
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
