@@ -11,7 +11,7 @@ This section contains [course notes](#Course) and a [schedule of readings](#Sche
 
 Course notes are courtesy of Mohammed Dahleh, Munther A. Dahleh, and George Verghese, and are used with permission. Chapters 9, 16 and 23 are not available on MIT OpenCourseWare.
 
-The full set of course notes are also available as one file (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 10.3MB]({{< baseurl >}}/resources/mit6_241js11_textbook)).
+The full set of course notes are also available as one file ([PDF - 10.3MB]({{< baseurl >}}/resources/mit6_241js11_textbook)).
 
 {{< tableopen >}}
 {{< theadopen >}}
